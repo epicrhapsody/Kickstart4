@@ -1,0 +1,30 @@
+$main: #0096c8;
+$section: #fff;
+$footer: #e9e9e9;
+$lightgrey: #ddd;
+$nav-width: 300px;
+$rounded: 5px;
+
+%overlay {
+    background-color: rgba(0,0,0,0.6);
+}
+
+%site {
+    background-color: #fff;
+    color: #111;
+}
+
+%nav {
+    background-color: $main;
+    color: #fff;
+}
+
+%section {
+    background-color: $section;
+    color: #111;
+}
+
+%footer {
+    background-color: $footer;
+    color: #111;
+}

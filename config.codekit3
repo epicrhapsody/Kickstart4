@@ -43,6 +43,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/css/scss/_config.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/scss/_config.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/css/scss/_desktop.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -91,19 +104,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/scss/_normalize.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/css/scss/_reset.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/scss/_reset.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

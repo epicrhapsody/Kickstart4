@@ -1,10 +1,6 @@
-$main: #0096c8;
-$nav-width: 300px;
-$rounded: 5px;
-
 @charset "utf-8";
+@import "_config.scss";
 @import "_normalize.scss";
-@import "_reset.scss";
 @import "_boxicons.scss";
 @import "_global.scss";
 
