@@ -315,12 +315,12 @@
 		"oAP": "/index.html",
 		"oF": 0
 		},
-	"/js/jquery-3.2.1.min.js": {
+	"/js/jquery-3.3.1.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/js/jquery-3.2.1.min-min.js",
+		"oAP": "/js/jquery-3.3.1.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -416,7 +416,7 @@
 	"/js/main.js": [
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/js/jquery-3.2.1.min.js",
+			"linkedFileAbbreviatedPath": "/js/jquery-3.3.1.min.js",
 			"position": 0,
 			"type": 0
 			}
