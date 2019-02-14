@@ -14,7 +14,7 @@
 
         <meta name="robots" content="index, follow" />
 
-        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <meta http-equiv="cache-control" content="no-cache" />
         <meta http-equiv="pragma" content="no-cache" />
@@ -23,6 +23,7 @@
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         <link rel="apple-touch-startup-image" href="<?php echo esc_url( get_template_directory_uri() ); ?>/icons/startup.png">
+        <meta name="theme-color" content="#fafafa">
 
         <link rel="manifest" href="<?php echo esc_url( get_template_directory_uri() ); ?>/manifest.json">
         <meta name="msapplication-config" content="<?php echo esc_url( get_template_directory_uri() ); ?>/browserconfig.xml" />
