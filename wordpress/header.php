@@ -28,7 +28,7 @@
         <link rel="manifest" href="<?php echo esc_url( get_template_directory_uri() ); ?>/manifest.json">
         <meta name="msapplication-config" content="<?php echo esc_url( get_template_directory_uri() ); ?>/browserconfig.xml" />
         <link rel="apple-touch-icon" href="<?php echo esc_url( get_template_directory_uri() ); ?>/icons/icon.png">
-        <link rel="shortcut icon" href="<?php echo esc_url( get_template_directory_uri() ); ?>/icons/favicon.png" type="image/png">
+        <link rel="shortcut-icon" href="<?php echo esc_url( get_template_directory_uri() ); ?>/icons/favicon.png" type="image/png">
 
         <?php wp_head(); ?>
         <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/style.min.css">
