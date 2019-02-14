@@ -323,7 +323,7 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/index.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/js/jquery-3.3.1.min.js": {
 		"ft": 64,
@@ -369,55 +369,6 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
-		},
-	"/wordpress/footer.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wordpress/footer.php",
-		"oF": 0
-		},
-	"/wordpress/functions.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wordpress/functions.php",
-		"oF": 0
-		},
-	"/wordpress/header.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wordpress/header.php",
-		"oF": 0
-		},
-	"/wordpress/index.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wordpress/index.php",
-		"oF": 0
-		},
-	"/wordpress/screenshot.png": {
-		"ft": 32768,
-		"iS": 10088,
-		"oA": 0,
-		"oAP": "/wordpress/screenshot.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/wordpress/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/wordpress/style-min.css",
-		"oF": 0,
-		"oS": 3
 		}
 	},
 "hooks": [
@@ -434,7 +385,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 542275851,
-	"displayValue": "Wordpress Theme",
+	"displayValue": "Kickstart4-master",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl",
 	"iconImageWasSetByUser": 0

@@ -11,84 +11,6 @@ function my_jquery_enqueue() {
     wp_enqueue_script('jquery');
 }
 
-
-// // xxxxxxxxxx Woocommerce Breadcrumbs xxxxxxxxxx
-// add_filter( 'woocommerce_breadcrumb_defaults', 'jk_woocommerce_breadcrumbs' );
-// function jk_woocommerce_breadcrumbs() {
-//     return array(
-//             'delimiter'   => '<span class="delimiter"></span>',
-//             'wrap_before' => '<div class="breadcrumbs"><div class="inner"><div class="woocommerce-breadcrumbs" itemprop="breadcrumb">',
-//             'wrap_after'  => '</div></div></div>',
-//             'before'      => '',
-//             'after'       => '',
-//             'home'        => _x( 'Home', 'breadcrumb', 'woocommerce' ),
-//         );
-// }
-//
-// // xxxxxxxxxx Hide Woocommerce xxxxxxxxxx
-//  function wpse_131562_redirect() {
-//      if (
-//          ! is_user_logged_in()
-//          && (is_woocommerce() || is_cart() || is_checkout())
-//      ) {
-//          wp_redirect(home_url());
-//          exit;
-//      }
-//  }
-//  add_action('template_redirect', 'wpse_131562_redirect');
-//
-//
-// // xxxxxxxxxx Disable Woocommerce CSS xxxxxxxxxx
-// add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
-
-// xxxxxxxxxx RoyalSlider xxxxxxxxxx
-//register_new_royalslider_files(1);
-
-// xxxxxxxxxx Login + Logout Redirects xxxxxxxxxx
-// function login_redirect( $redirect_to, $request, $user ){
-//     return home_url('shop');
-// }
-// add_filter( 'login_redirect', 'login_redirect', 10, 3 );
-//
-// function logout_redirect( $redirect_to, $request, $user ){
-//     return home_url();
-// }
-// add_filter( 'logout_redirect', 'logout_redirect', 10, 3 );
-//
-// add_action( 'after_setup_theme', 'woocommerce_support' );
-// function woocommerce_support() {
-//     add_theme_support( 'woocommerce' );
-// }
-
-// xxxxxxxxxx Custom Login Logo xxxxxxxxxx
-function my_login_logo() { ?>
-    <style type="text/css">
-        .login h1 a {
-            background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/tile.png);
-            background-size: 100% auto;
-            background-position: center center;
-            height: 200px;
-            width: 200px;
-            padding-bottom: 30px;
-        }
-    </style>
-<?php }
-add_action( 'login_enqueue_scripts', 'my_login_logo' );
-function my_login_logo_url() {
-    return home_url();
-}
-add_filter( 'login_headerurl', 'my_login_logo_url' );
-function my_login_logo_url_title() {
-    return 'Your Site Name and Info';
-}
-add_filter( 'login_headertitle', 'my_login_logo_url_title' );
-
-// xxxxxxxxxx Excerpt Length xxxxxxxxxx
-    function wpdocs_custom_excerpt_length( $length ) {
-        return 22;
-    }
-    add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
-
 // xxxxxxxxxx HTML Search Form xxxxxxxxxx
 add_theme_support( 'html5', array( 'search-form' ) );
 
@@ -102,7 +24,7 @@ add_theme_support( 'post-formats', array(
 // xxxxxxxxxx Navigation Menus xxxxxxxxxx
 register_nav_menus( array(
 	'primary'   => __( 'Top primary menu', 'twentyfourteen' ),
-	'secondary'   => __( 'Bottom secondary menu', 'twentyfourteen' ),
+  'secondary'   => __( 'Bottom secondary menu', 'twentyfourteen' ),
 ) );
 
 
@@ -118,20 +40,14 @@ add_filter( 'wp_calculate_image_sizes', 'adjust_image_sizes_attr', 10 , 2 );
 if ( function_exists( 'add_theme_support' ) ) {
     add_theme_support( 'post-thumbnails' );
     set_post_thumbnail_size( 150, 150, true );
-    add_image_size( '320-thumb', 320, 9999, false );
-    add_image_size( '375-thumb', 375, 9999, false );
-    add_image_size( '414-thumb', 414, 9999, false );
-    add_image_size( '768-thumb', 768, 9999, false );
-    add_image_size( '900-thumb', 900, 9999, false );
-    add_image_size( '1024-thumb', 1024, 9999, false );
-    add_image_size( '1140-thumb', 1140, 9999, false );
+    add_image_size( 'Foto', 1280, 9999, false );
 }
 
 
 // xxxxxxxxxx Custom Sidebar xxxxxxxxxx
 register_sidebar( array(
 	'name' => __( 'Sidebar' ),
-	'id' => 'aside',
+	'id' => 'sidebar',
 	'description' => __( 'Sidebar'),
 	'before_widget' => '<div>',
 	'after_widget'  => '</div>',

@@ -7,11 +7,11 @@
                 <span class="meta"><?php the_time('j. F, Y'); ?> <?php the_tags( '//  ', ', ' ); ?></span>
                 <?php the_content(); ?>
             </div>
-           <?php
-           if (($wp_query->current_post + 1) < ($wp_query->post_count)) {
-              echo '<hr />';
-           }
-           ?>
+        <?php
+        if (($wp_query->current_post + 1) < ($wp_query->post_count)) {
+            echo '<hr />';
+        }
+        ?>
         <?php endwhile; ?>
     <?php endif; ?>
     <?php if (function_exists("pagination")) {
